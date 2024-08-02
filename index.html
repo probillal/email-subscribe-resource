@@ -9,31 +9,44 @@
   </head>
   <body>
     <!-- background content -->
-    <div
-      class="flex items-center justify-center bg-zinc-700 text-indigo-600 h-screen"
-    >
+    <div class="flex items-center justify-center bg-zinc-700 h-screen">
       <!-- card container -->
-      <div class="p-2 mx-5 bg-zinc-800 rounded-2xl">
+      <div class="p-2 mx-6 bg-zinc-800 rounded-2xl">
         <div class="flex flex-col md:flex-row rounded-l-xl">
           <!-- images section -->
           <img
             src="images/image.jpg"
             alt=""
-            class="object-fit rounded-xl h-80 md:h-68 md:rounded-l-xl md:rounded-r-none transform hover:scale-105 hover:rounded-lg duration-200"
+            class="object-fit rounded-xl h-80 md:h-68 md:rounded-l-xl md:rounded-r-none transform hover:scale-105 hover:rounded-lg duration-500"
           />
           <!-- content section -->
-          <div class="p-6 py-12">
+          <div class="p-6 md:p-12">
             <h2
               class="font-serif text-xl font-medium text-white text-center md:text-left"
             >
               Get diet and fitness tips in your inbox
             </h2>
             <p
-              class="max-w-xs leading-5 tracking-wide text-xs text-center text-white my-4 md:text-left"
+              class="max-w-xs leading-5 tracking-wide text-xs text-center text-white py-4 md:text-left"
             >
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Exercitationem, cupiditate!
             </p>
+            <!-- flex container-2 -->
+            <div
+              class="flex flex-col md:flex-row mt-5 space-y-4 md:space-x-3 md:space-y-0"
+            >
+              <input
+                type="text"
+                placeholder="Enter your email"
+                class="p-2 py-2 bg-zinc-800 text-white text-center border boder-zinc-600 placeholder:text-xs md:text-left placeholder:md:text-left focus:outline-none"
+              />
+              <button
+                class="py-3 px-5 text-zinc-800 text-center text-xs rounded-lg bg-lime-600 hover:bg-lime-800 hover:text-white duration-500"
+              >
+                Subscribe
+              </button>
+            </div>
           </div>
         </div>
       </div>
